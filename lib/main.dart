@@ -65,8 +65,7 @@ class _MyAppState extends State<MyApp> {
       ),
       home: Scaffold(
         backgroundColor: Colors.white,
-        appBar:
-            AppBar(title: Text('Random Fox', style: TextStyle(fontSize: 40))),
+        appBar: AppBar(title: Text(title, style: TextStyle(fontSize: 40))),
         body: Center(
           child: FutureBuilder<Album>(
             future: futureAlbum,
